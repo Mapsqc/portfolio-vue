@@ -38,7 +38,7 @@ onMounted(() => setTimeout(() => visible.value = true, 100))
           <a href="mailto:adamauger872@gmail.com" class="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-bg text-text-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-blue hover:text-blue hover:shadow-md dark:border-dark-border dark:bg-dark-bg dark:text-dark-text-secondary dark:hover:text-blue" title="Email">
             <svg class="h-[18px] w-[18px] fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           </a>
-          <a href="#" class="ml-1 inline-flex items-center gap-2 rounded-full bg-blue px-5 py-2.5 font-heading text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue/25" title="Télécharger mon CV">
+          <a href="/CV_Adam_Auger.docx" download class="ml-1 inline-flex items-center gap-2 rounded-full bg-blue px-5 py-2.5 font-heading text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue/25" title="Télécharger mon CV">
             <svg class="h-4 w-4 fill-white" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
             CV
           </a>
