@@ -13,9 +13,16 @@ const experiences = [
     bgClass: 'bg-blue-soft dark:bg-blue/10',
   },
   {
+    title: 'Fondateur & Développeur',
+    org: 'CRM Camping — Startup',
+    desc: "Conception d'une solution CRM sur mesure pour la gestion de campings : réservations, clients et opérations quotidiennes.",
+    icon: 'startup',
+    bgClass: 'bg-beige-soft dark:bg-beige/10',
+  },
+  {
     title: 'Étudiant en informatique',
-    org: 'Cégep Garneau — Québec',
-    desc: "Formation en développement logiciel et technologies de l'information.",
+    org: 'Cégep Garneau — Parcours DEC-BAC',
+    desc: "Formation en développement logiciel et technologies de l'information. 4e session d'études.",
     icon: 'graduation',
     bgClass: 'bg-pink-soft dark:bg-pink/10',
   },
@@ -56,6 +63,9 @@ onMounted(() => {
           >
             <svg v-if="exp.icon === 'building'" class="h-5 w-5 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <rect x="4" y="2" width="16" height="20" rx="2" ry="2" /><path d="M9 22v-4h6v4" /><path d="M8 6h.01" /><path d="M16 6h.01" /><path d="M12 6h.01" /><path d="M12 10h.01" /><path d="M12 14h.01" /><path d="M16 10h.01" /><path d="M16 14h.01" /><path d="M8 10h.01" /><path d="M8 14h.01" />
+            </svg>
+            <svg v-if="exp.icon === 'startup'" class="h-5 w-5 text-beige" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
             </svg>
             <svg v-if="exp.icon === 'graduation'" class="h-5 w-5 text-pink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M22 10v6M2 10l10-5 10 5-10 5z" /><path d="M6 12v5c3 3 9 3 12 0v-5" />

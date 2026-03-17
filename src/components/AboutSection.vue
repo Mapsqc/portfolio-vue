@@ -42,7 +42,8 @@ onMounted(() => {
             Amateur de hackathons, j'ai remporté la 1re place au Hackathon Botpress et participé au Hackathon de la NASA.
           </p>
           <p class="mt-4 text-[15px] leading-relaxed text-text-secondary dark:text-dark-text-secondary">
-            Je suis toujours à la recherche de nouveaux défis techniques et d'opportunités de collaboration.
+            <span class="font-semibold text-text dark:text-dark-text">Bilingue français-anglais</span>,
+            je suis toujours à la recherche de nouveaux défis techniques et d'opportunités de collaboration.
           </p>
         </div>
 
